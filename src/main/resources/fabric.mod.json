@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.bjnzoom2.ruby.RubyClient"
+			"net.bjnzoom2.ruby.Ruby"
 		],
 		"fabric-datagen": [
 			"net.bjnzoom2.ruby.RubyDataGenerator"
