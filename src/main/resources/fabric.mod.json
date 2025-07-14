@@ -9,14 +9,14 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/bjnzoom2/Ruby-1.21.1"
 	},
 	"license": "MIT",
 	"icon": "assets/ruby/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.bjnzoom2.ruby.Ruby"
+			"net.bjnzoom2.ruby.RubyClient"
 		],
 		"fabric-datagen": [
 			"net.bjnzoom2.ruby.RubyDataGenerator"
