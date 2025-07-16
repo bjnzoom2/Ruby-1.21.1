@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/bjnzoom2/Ruby-1.21.1"
+		"sources": "https://github.com/bjnzoom2/Ruby-1.21.1.git"
 	},
 	"license": "MIT",
 	"icon": "assets/ruby/icon.png",
