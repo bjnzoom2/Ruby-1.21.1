@@ -1,4 +1,6 @@
 {
   "item.ruby.ruby": "Ruby",
-  "item.ruby.raw_ruby": "Raw Ruby"
+  "item.ruby.raw_ruby": "Raw Ruby",
+
+  "block.ruby.ruby_block": "Block of Ruby"
 }
