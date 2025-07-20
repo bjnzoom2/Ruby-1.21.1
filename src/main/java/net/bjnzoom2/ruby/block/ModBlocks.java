@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block RUBY_BLOCK = registerBlock("ruby_block", new Block(AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.METAL)));
+    public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", new Block(AbstractBlock.Settings.create().strength(3f).requiresTool()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
@@ -28,7 +29,8 @@ public class ModBlocks {
         Ruby.LOGGER.info("Registering Mod Blocks for " + Ruby.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
-            fabricItemGroupEntries.add(RUBY_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.RUBY_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.RAW_RUBY_BLOCK);
         });
     }
 }
