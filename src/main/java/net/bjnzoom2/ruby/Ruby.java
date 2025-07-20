@@ -1,6 +1,7 @@
 package net.bjnzoom2.ruby;
 
 import net.bjnzoom2.ruby.block.ModBlocks;
+import net.bjnzoom2.ruby.item.ModItemGroups;
 import net.bjnzoom2.ruby.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class Ruby implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
