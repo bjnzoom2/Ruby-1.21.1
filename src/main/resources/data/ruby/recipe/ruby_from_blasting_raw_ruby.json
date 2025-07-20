@@ -1,11 +1,11 @@
 {
   "type": "minecraft:blasting",
   "category": "misc",
-  "cookingtime": 300,
+  "cookingtime": 200,
   "experience": 0.2,
   "group": "ruby",
-  "ingredients": {
-      "item": "ruby:raw_ruby"
+  "ingredient": {
+    "item": "ruby:raw_ruby"
   },
   "result": {
     "id": "ruby:ruby"
