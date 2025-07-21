@@ -31,6 +31,8 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.RUBY_BLOCK);
                         entries.add(ModBlocks.RAW_RUBY_BLOCK);
+                        entries.add(ModBlocks.RUBY_ORE);
+                        entries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
                     }).build());
 
     public static void registerItemGroups() {
