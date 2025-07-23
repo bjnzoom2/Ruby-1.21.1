@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "r": {
+      "item": "ruby:ruby"
+    },
+    "i": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "r",
+    "i"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ruby:chisel"
+  }
+}

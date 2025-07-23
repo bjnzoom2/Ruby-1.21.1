@@ -13,7 +13,7 @@ public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new Item.Settings()));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new Item.Settings()));
 
-    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(55)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Ruby.MOD_ID, name), item);
