@@ -10,5 +10,8 @@
   "block.ruby.ruby_deepslate_ore": "Ruby Deepslate Ore",
 
   "itemgroup.ruby.ruby_items": "Ruby Items",
-  "itemgroup.ruby.ruby_blocks": "Ruby Blocks"
+  "itemgroup.ruby.ruby_blocks": "Ruby Blocks",
+
+  "tooltip.ruby.chisel.shift_down": "Chisels blocks into their brick variants",
+  "tooltip.ruby.chisel": "Hold §e[SHIFT]§r for Summary"
 }
