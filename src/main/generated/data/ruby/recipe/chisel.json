@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
+  "category": "equipment",
   "key": {
-    "r": {
-      "item": "ruby:ruby"
-    },
-    "i": {
+    "I": {
       "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "ruby:ruby"
     }
   },
   "pattern": [
-    "r",
-    "i"
+    "R",
+    "I"
   ],
   "result": {
     "count": 1,
