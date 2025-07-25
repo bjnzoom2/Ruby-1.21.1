@@ -41,5 +41,18 @@ public class ModItems {
             fabricItemGroupEntries.add(RUBY);
             fabricItemGroupEntries.add(RAW_RUBY);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(CHISEL);
+            fabricItemGroupEntries.add(RUBY_SHOVEL);
+            fabricItemGroupEntries.add(RUBY_PICKAXE);
+            fabricItemGroupEntries.add(RUBY_AXE);
+            fabricItemGroupEntries.add(RUBY_HOE);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(RUBY_SWORD);
+            fabricItemGroupEntries.add(RUBY_AXE);
+        });
     }
 }

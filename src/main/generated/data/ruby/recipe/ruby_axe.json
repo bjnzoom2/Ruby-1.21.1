@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "R": {
+      "item": "ruby:ruby"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "RR",
+    "RS",
+    " S"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ruby:ruby_axe"
+  }
+}

@@ -45,5 +45,10 @@ public class ModBlocks {
             fabricItemGroupEntries.add(ModBlocks.RUBY_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.RAW_RUBY_BLOCK);
         });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.RUBY_ORE);
+            fabricItemGroupEntries.add(ModBlocks.RUBY_DEEPSLATE_ORE);
+        });
     }
 }

@@ -1,6 +1,7 @@
 package net.bjnzoom2.ruby.datagen;
 
 import net.bjnzoom2.ruby.block.ModBlocks;
+import net.bjnzoom2.ruby.util.ModTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -22,6 +23,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE);
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
+                .add(ModBlocks.RUBY_BLOCK)
+                .add(ModBlocks.RAW_RUBY_BLOCK)
+                .add(ModBlocks.RUBY_ORE)
+                .add(ModBlocks.RUBY_DEEPSLATE_ORE);
+        getOrCreateTagBuilder(ModTags.Blocks.NEEDS_RUBY_TOOL)
                 .add(ModBlocks.RUBY_BLOCK)
                 .add(ModBlocks.RAW_RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)

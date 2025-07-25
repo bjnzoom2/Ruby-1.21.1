@@ -38,5 +38,50 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', Items.IRON_INGOT)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SWORD)
+                .pattern("R")
+                .pattern("R")
+                .pattern("S")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_PICKAXE)
+                .pattern("RRR")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SHOVEL)
+                .pattern("R")
+                .pattern("S")
+                .pattern("S")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_AXE)
+                .pattern("RR")
+                .pattern("RS")
+                .pattern(" S")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_HOE)
+                .pattern("RR")
+                .pattern(" S")
+                .pattern(" S")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
     }
 }
