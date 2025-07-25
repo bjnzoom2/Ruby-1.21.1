@@ -39,7 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(recipeExporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_SWORD)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.RUBY_SWORD)
                 .pattern("R")
                 .pattern("R")
                 .pattern("S")
@@ -79,6 +79,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("RR")
                 .pattern(" S")
                 .pattern(" S")
+                .input('R', ModItems.RUBY)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.RUBY_HAMMER)
+                .pattern("RRR")
+                .pattern("RRR")
+                .pattern(" S ")
                 .input('R', ModItems.RUBY)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))

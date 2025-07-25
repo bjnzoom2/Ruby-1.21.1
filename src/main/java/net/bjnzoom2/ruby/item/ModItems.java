@@ -2,6 +2,7 @@ package net.bjnzoom2.ruby.item;
 
 import net.bjnzoom2.ruby.Ruby;
 import net.bjnzoom2.ruby.item.custom.ChiselItem;
+import net.bjnzoom2.ruby.item.custom.HammerItem;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
@@ -30,6 +31,10 @@ public class ModItems {
             new HoeItem(ModToolMaterials.RUBY, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.RUBY, 0, -3.0F))));
 
+    public static final Item RUBY_HAMMER = registerItem("ruby_hammer",
+            new HammerItem(ModToolMaterials.RUBY, new Item.Settings()
+                    .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.RUBY, 7, -3.4F))));
+
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Ruby.MOD_ID, name), item);
     }
@@ -48,11 +53,13 @@ public class ModItems {
             fabricItemGroupEntries.add(RUBY_PICKAXE);
             fabricItemGroupEntries.add(RUBY_AXE);
             fabricItemGroupEntries.add(RUBY_HOE);
+            fabricItemGroupEntries.add(RUBY_HAMMER);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(RUBY_SWORD);
             fabricItemGroupEntries.add(RUBY_AXE);
+            fabricItemGroupEntries.add(RUBY_HAMMER);
         });
     }
 }

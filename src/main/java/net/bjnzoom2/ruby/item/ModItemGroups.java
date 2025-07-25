@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModItems.RUBY_SHOVEL);
                         entries.add(ModItems.RUBY_AXE);
                         entries.add(ModItems.RUBY_HOE);
+
+                        entries.add(ModItems.RUBY_HAMMER);
                     }).build());
 
 
