@@ -73,6 +73,11 @@ public class ModItems {
             fabricItemGroupEntries.add(RUBY_SWORD);
             fabricItemGroupEntries.add(RUBY_AXE);
             fabricItemGroupEntries.add(RUBY_HAMMER);
+
+            fabricItemGroupEntries.add(RUBY_HELMET);
+            fabricItemGroupEntries.add(RUBY_CHESTPLATE);
+            fabricItemGroupEntries.add(RUBY_LEGGINGS);
+            fabricItemGroupEntries.add(RUBY_BOOTS);
         });
     }
 }
