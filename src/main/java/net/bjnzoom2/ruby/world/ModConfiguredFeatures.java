@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.RUBY_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.RUBY_DEEPSLATE_ORE.getDefaultState()));
 
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(rubyOres, 5, 0.57F));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreFeatureConfig(rubyOres, 5, 0.53F));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
