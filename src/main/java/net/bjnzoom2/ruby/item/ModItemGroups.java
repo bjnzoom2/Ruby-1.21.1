@@ -10,8 +10,6 @@ import net.minecraft.registry.Registry;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
-import static com.mojang.serialization.codecs.RecordCodecBuilder.build;
-
 
 public class ModItemGroups {
     public static final ItemGroup RUBY_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
