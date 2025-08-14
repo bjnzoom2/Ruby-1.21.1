@@ -22,6 +22,12 @@
   "block.ruby.ruby_ore": "Ruby Ore",
   "block.ruby.ruby_deepslate_ore": "Ruby Deepslate Ore",
 
+  "block.ruby.ruby_stairs": "Ruby Stairs",
+  "block.ruby.ruby_slab": "Ruby Slab",
+  "block.ruby.ruby_wall": "Ruby Wall",
+  "block.ruby.ruby_door": "Ruby Door",
+  "block.ruby.ruby_trapdoor": "Ruby Trapdoor",
+
   "itemgroup.ruby.ruby_items": "Ruby Items",
   "itemgroup.ruby.ruby_blocks": "Ruby Blocks",
 

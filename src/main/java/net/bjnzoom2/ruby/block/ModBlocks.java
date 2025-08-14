@@ -2,9 +2,7 @@ package net.bjnzoom2.ruby.block;
 
 import net.bjnzoom2.ruby.Ruby;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Block;
-import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -28,6 +26,17 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block RUBY_STAIRS = registerBlock("ruby_stairs",
+            new StairsBlock(ModBlocks.RUBY_BLOCK.getDefaultState(),
+                    AbstractBlock.Settings.create().strength(2F).requiresTool()));
+    public static final Block RUBY_SLAB = registerBlock("ruby_slab",
+            new SlabBlock(AbstractBlock.Settings.create().strength(2F).requiresTool()));
+    public static final Block RUBY_WALL = registerBlock("ruby_wall",
+            new WallBlock(AbstractBlock.Settings.create().strength(2F).requiresTool()));
+    public static final Block RUBY_DOOR = registerBlock("ruby_door",
+            new DoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2F).requiresTool().nonOpaque()));
+    public static final Block RUBY_TRAPDOOR = registerBlock("ruby_trapdoor",
+            new TrapdoorBlock(BlockSetType.IRON, AbstractBlock.Settings.create().strength(2F).requiresTool().nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
