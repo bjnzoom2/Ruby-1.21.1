@@ -51,7 +51,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RUBY_SLAB);
                         entries.add(ModBlocks.RUBY_WALL);
                         entries.add(ModBlocks.RUBY_DOOR);
-                        entries.add(ModBlocks.RUBY_TRAPDOOR)
+                        entries.add(ModBlocks.RUBY_TRAPDOOR);
                     }).build());
 
     public static void registerItemGroups() {
