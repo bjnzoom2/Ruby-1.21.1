@@ -32,5 +32,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_RUBY_BLOCK)
                 .add(ModBlocks.RUBY_ORE)
                 .add(ModBlocks.RUBY_DEEPSLATE_ORE);
+        getOrCreateTagBuilder(BlockTags.WALLS).add(ModBlocks.RUBY_WALL);
     }
 }
