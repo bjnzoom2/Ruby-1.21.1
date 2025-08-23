@@ -157,5 +157,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('R', ModItems.RUBY)
                 .criterion(hasItem(ModItems.RUBY), conditionsFromItem(ModItems.RUBY))
                 .offerTo(recipeExporter);
+
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.RUBY_STAIRS, ModBlocks.RUBY_BLOCK, 6);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.RUBY_SLAB, ModBlocks.RUBY_BLOCK, 18);
+        offerStonecuttingRecipe(recipeExporter, RecipeCategory.MISC, ModBlocks.RUBY_WALL, ModBlocks.RUBY_BLOCK, 9);
     }
 }

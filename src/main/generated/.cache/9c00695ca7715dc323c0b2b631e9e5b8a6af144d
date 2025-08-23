@@ -1,0 +1,10 @@
+// 1.21.1	2025-08-23T13:12:15.6960124	Ruby/Block Loot Tables
+ad03ba15be3c3c72fd208b0c81213dd9fa6c0d4f data\ruby\loot_table\blocks\ruby_block.json
+b08b38f40bd85008a64b91ec3f66eed324c3fee8 data\ruby\loot_table\blocks\raw_ruby_block.json
+adbc8023a2bae62819a0655e256a65a66babb9e8 data\ruby\loot_table\blocks\ruby_stairs.json
+91c793546e98f8fbdb8e924cefd21d312add570d data\ruby\loot_table\blocks\ruby_deepslate_ore.json
+7c320dbc35dd6a6a3318c26c6ae498366074a887 data\ruby\loot_table\blocks\ruby_wall.json
+e53f1aebebe245b088b77ef7ecc8e833194de233 data\ruby\loot_table\blocks\ruby_door.json
+df6975ba73137c52a56aace2543697e53e00ba7f data\ruby\loot_table\blocks\ruby_trapdoor.json
+1e0b39aa864615ed762bbb0f2f7f4037973256f5 data\ruby\loot_table\blocks\ruby_ore.json
+f3d761fe6b6fc88bc5eabf55d92dd54eb829dd5a data\ruby\loot_table\blocks\ruby_slab.json

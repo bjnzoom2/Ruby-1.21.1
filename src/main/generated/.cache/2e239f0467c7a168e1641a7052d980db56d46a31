@@ -1,0 +1,5 @@
+// 1.21.1	2025-08-23T13:12:15.6810122	Ruby/Tags for minecraft:block
+0bf9a426e0b284642c8bcaefe8c65a5847d11496 data\minecraft\tags\block\mineable\pickaxe.json
+0bf9a426e0b284642c8bcaefe8c65a5847d11496 data\ruby\tags\block\needs_ruby_tool.json
+4783244ef00a92cb32231de84f589b098845e43f data\minecraft\tags\block\walls.json
+0bf9a426e0b284642c8bcaefe8c65a5847d11496 data\minecraft\tags\block\needs_iron_tool.json
